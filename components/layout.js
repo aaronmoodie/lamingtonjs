@@ -5,7 +5,7 @@ import Footer from './footer'
 export default function Layout({ children }) {
 	return (
 		<>
-			<div className="flex flex-col min-h-screen text-gray-900 dark:text-[#FFF] bg-white dark:bg-gray-800 antialiased tracking-tight">
+			<div className="layout-container">
 				<Head>
 					<title>Lamington JS</title>
 					<link rel="icon" href="/icons/favicon.ico?v=3" />

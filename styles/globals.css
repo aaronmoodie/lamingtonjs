@@ -27,3 +27,10 @@
 		font-display: swap;
 	}
 }
+
+@layer components {
+	.layout-container {
+		@apply flex flex-col min-h-screen antialiased tracking-tight;
+		height: -webkit-fill-available;
+	}
+}

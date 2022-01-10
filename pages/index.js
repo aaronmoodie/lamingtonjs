@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center text-center w-full">
+    <div className="flex flex-col w-full items-center justify-center text-center">
       <div className="px-20">
         <div className="max-w-sm mx-auto">
           <img className="w-full" src="/images/lammy.png" alt="Lamington JS charater" />
