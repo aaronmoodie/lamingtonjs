@@ -30,7 +30,8 @@
 
 @layer components {
 	.layout-container {
-		@apply flex flex-col min-h-screen antialiased tracking-tight;
-		height: -webkit-fill-available;
+		@apply flex flex-col antialiased tracking-tight;
+		min-height: 100vh;
+		min-height: -webkit-fill-available;
 	}
 }
