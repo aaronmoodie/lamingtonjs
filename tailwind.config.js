@@ -8,7 +8,11 @@ module.exports = {
     colors: {
       gray: colors.trueGray,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Work Sans', 'sans-serif'],
+      }
+    },
   },
   variants: {
     extend: {},
