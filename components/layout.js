@@ -9,6 +9,7 @@ export default function Layout({ children }) {
 				<Head>
 					<title>Lamington JS</title>
 					<link rel="icon" href="/icons/favicon.ico?v=3" />
+					// TODO Open graph items
 				</Head>
 				
 				<Header />
