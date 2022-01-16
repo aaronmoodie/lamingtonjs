@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Layout from '../components/layout'
 
-function Site({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
     <Layout>
       <Component {...pageProps} />
@@ -9,4 +9,4 @@ function Site({ Component, pageProps }) {
   )
 }
 
-export default Site
+export default App
