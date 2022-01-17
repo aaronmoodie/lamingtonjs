@@ -26,6 +26,31 @@
 		font-style: normal;
 		font-display: block;
 	}
+
+	article a {
+		@apply underline;
+	}
+
+	article h2 {
+		@apply text-2xl font-bold mt-6;
+	}
+
+	article h2:first-child {
+		@apply mt-0;
+	}
+
+	article p {
+		@apply my-4;
+	}
+
+	article ul {
+		@apply list-disc my-4 ml-5;
+	}
+
+	article li {
+		@apply my-2 pl-1;
+	}
+	
 }
 
 @layer components {
